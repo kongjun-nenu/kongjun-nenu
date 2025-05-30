@@ -921,48 +921,6 @@ body>div#redeviation-bs-indicator>div{opacity:0;pointer-events:none}body>#redevi
 
 
 
-<!-- 页面其他内容 -->
-<script>
-// 创建浮动图标函数
-function createFloatingIcon() {
-    // 创建超链接元素
-    const link = document.createElement('a');
-    link.href = 'https://info.nenu.edu.cn/info/1031/15861.htm'; // 替换成你的目标链接
-    link.target = '_blank'; // 在新标签页打开
-    link.style.position = 'fixed';
-    link.style.right = '100px';
-    link.style.top = '50px';
-    link.style.zIndex = '1000';
-
-    // 创建图标元素（这里使用Font Awesome图标示例）
-    //const icon = document.createElement('i');
-    //icon.className = 'fas fa-arrow-up'; // 使用Font Awesome图标
-    //icon.style.fontSize = '24px';
-    //icon.style.color = '#007bff';
-    //icon.style.transition = 'transform 0.3s ease';
-    
-    // 或者使用图片图标
-     const icon = document.createElement('img');
-     icon.src = '20250402134024.png'; // 替换成你的图标路径
-     icon.style.width = '150px';
-
-    // 悬停动画效果
-    icon.addEventListener('mouseover', () => {
-        icon.style.transform = 'scale(1.2)';
-    });
-    icon.addEventListener('mouseout', () => {
-        icon.style.transform = 'scale(1)';
-    });
-
-    // 组合元素
-    link.appendChild(icon);
-    document.body.appendChild(link);
-}
-
-// 页面加载完成后执行
-window.onload = createFloatingIcon;
-</script>
-
 <!-- 如果使用Font Awesome，需要添加CDN链接 -->
 <link rel="stylesheet" href="./files/all.min.css">
 
