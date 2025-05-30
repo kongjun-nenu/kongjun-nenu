@@ -1,0 +1,140 @@
+@charset "utf-8";
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+    font-family: Microsoft YaHei ,微软雅黑;
+}
+.clear{
+	clear: both;
+}
+#layout{
+    width:1003px;
+	margin:0px auto;
+}
+#head{
+	width:520px;
+}
+.name{
+	font-size:40px;
+	font-weight:bold;
+    font-family: "黑体",SimHei;
+    color:#ffffff;
+}
+.college{
+	font-size:18px;
+    color: #eeeeee;
+    border-bottom: 1px solid #52a0d6;
+}
+.col{
+    margin-top:23px;
+}
+#pic{
+    height:356px;
+	background:#148bdd;
+}
+.pic{
+    width:308px;
+	height:230px;
+	padding-top:35px;
+	margin-left:95px;
+	float:left;
+    font-size: 16px;
+}
+.jie{
+    padding-top:35px;
+    line-height:45px;
+	font-size:16px;
+	color:white;
+	margin-left:70px;
+	float:left;
+	width:520px;
+}
+.jie_con{
+    line-height: 30px;
+    margin-top: 20px;
+}
+#jieli{
+   margin-top: 18px;
+   width: 999px;
+   min-height:326px;
+   background-color: #eeeeee;
+   border: 2px solid #dcdcdc;
+}
+.jiezi{
+   padding-top: 15px;
+   padding-left: 15px;
+   padding-right: 15px;
+   color:#148bdd;
+   font-size:20px;
+   font-family: "黑体",SimHei;
+   font-weight: bold;
+}
+.jieli{
+   padding-top:10px;
+   padding-left: 15px;
+   padding-right: 15px;
+   line-height:30px;
+   font-size:14px;
+   color:#535353;
+   text-indent:2em;
+   white-space:pre-line;
+}
+.head1{
+   margin-top: 18px;
+   background:#eeeeee;
+   width:1003px;
+   height:55px;
+}
+.head{
+   margin-top:18px;
+   background:#eeeeee;
+   width:1003px;
+   height:55px; 
+}
+.headzi{
+   padding-top:18px;
+   color:#148bdd;
+   font-size:20px;
+   padding-left:17px;
+   width:400px;
+   font-family: "黑体",SimHei;
+   font-weight: bold;
+}
+.headzi font{
+    font-size:14px;
+}
+.jiao{
+   margin-top:-41px;
+   width:65px;
+   height:55px;
+   float:right;
+}
+.content{
+   background:#eeeeee;
+   width:1003px;
+   line-height:30px;
+   display:none;
+}
+.text{
+   line-height:30px;
+   font-size:14px;
+   color:#535353;
+   padding-left: 50px;
+   padding-right: 50px;
+}
+#f{
+   height:200px;
+   text-align:center;
+   margin-top:20px;
+}
+#f a{
+    color: #148bdd;
+}
+#f a:hover{
+    text-decoration: underline;
+}
+#divOne_4 ul li pre{
+    white-space: pre-wrap;
+}
